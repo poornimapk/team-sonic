@@ -1,0 +1,61 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.banner-img {
+  margin-left: 30%;
+  width: 500px;
+  height: 250px;
+}
+
+h1, p {
+  margin-top: 0%;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: row;  
+  justify-content: left;
+  margin-left: 12%;
+  border: 5% solid red;
+}
+
+.text-button-div {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+input, button, p {
+  margin: 3%;
+}
+
+button {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  background-color: #0065AD;
+  color: white;
+  border-radius: 12px;
+}
+
+.character-img {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+}
+
+p {
+  width: 30%;
+  text-align: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
